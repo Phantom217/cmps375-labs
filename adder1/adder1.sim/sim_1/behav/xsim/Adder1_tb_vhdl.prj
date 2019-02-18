@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../adder1.srcs/sources_1/imports/CMPS375Lab1/Adder1.vhd" \
+"../../../../adder1.srcs/sim_1/imports/CMPS375Lab1/Adder1_tb.vhd" \
+
+# Do not sort compile order
+nosort

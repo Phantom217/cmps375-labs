@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date         : Sun Feb 17 22:07:33 2019
+| Date         : Mon Feb 18 17:38:34 2019
 | Host         : k501u running 64-bit unknown
 | Command      : report_utilization -file Adder4_utilization_synth.rpt -pb Adder4_utilization_synth.pb
 | Design       : Adder4

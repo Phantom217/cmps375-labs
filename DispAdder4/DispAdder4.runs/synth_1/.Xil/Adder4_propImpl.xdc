@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:/home/phantom/projects/cmps375/DispAdder4/DispAdder4.srcs/constrs_1/imports/CMPS375Lab1/Adder1.xdc rfile:../../../DispAdder4.srcs/constrs_1/imports/CMPS375Lab1/Adder1.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.srcs/constrs_1/imports/CMPS375Lab1/Adder1.xdc rfile:../../../DispAdder4.srcs/constrs_1/imports/CMPS375Lab1/Adder1.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN J15   IOSTANDARD LVCMOS33 } [get_ports { cIn }]; #IO_L24N_T3_RS0_15 Sch=sw[0]
 set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ} [current_design]

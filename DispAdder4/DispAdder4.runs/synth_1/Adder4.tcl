@@ -17,23 +17,20 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param synth.incrementalSynthesisCache ./.Xil/Vivado-25220-k501u/incrSyn
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir /home/phantom/projects/cmps375/DispAdder4/DispAdder4.cache/wt [current_project]
-set_property parent.project_path /home/phantom/projects/cmps375/DispAdder4/DispAdder4.xpr [current_project]
+set_property webtalk.parent_dir /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.cache/wt [current_project]
+set_property parent.project_path /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo /home/phantom/projects/cmps375/DispAdder4/DispAdder4.cache/ip [current_project]
+set_property ip_output_repo /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  /home/phantom/projects/cmps375/DispAdder4/DispAdder4.srcs/sources_1/imports/CMPS375Lab1/Adder1.vhd
-  /home/phantom/projects/cmps375/DispAdder4/DispAdder4.srcs/sources_1/new/Adder4.vhd
+  /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.srcs/sources_1/imports/CMPS375Lab1/Adder1.vhd
+  /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.srcs/sources_1/new/Adder4.vhd
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -43,8 +40,8 @@ read_vhdl -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc /home/phantom/projects/cmps375/DispAdder4/DispAdder4.srcs/constrs_1/imports/CMPS375Lab1/Adder1.xdc
-set_property used_in_implementation false [get_files /home/phantom/projects/cmps375/DispAdder4/DispAdder4.srcs/constrs_1/imports/CMPS375Lab1/Adder1.xdc]
+read_xdc /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.srcs/constrs_1/imports/CMPS375Lab1/Adder1.xdc
+set_property used_in_implementation false [get_files /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.srcs/constrs_1/imports/CMPS375Lab1/Adder1.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

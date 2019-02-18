@@ -20,12 +20,12 @@ ARCHITECTURE simulate OF Adder1_tb IS
    COMPONENT Adder1
       PORT (
          a, b, cIn : IN std_logic;
-	      cOut, sum : OUT std_logic);
+	      cOut, S : OUT std_logic);
    END COMPONENT;
    SIGNAL a, b, cIn: STD_LOGIC;
-   SIGNAL cOut, sum: STD_LOGIC;
+   SIGNAL cOut, S: STD_LOGIC;
 BEGIN
-   uut: Adder1 PORT MAP (a, b, cIn, cOut, sum);
+   uut: Adder1 PORT MAP (a, b, cIn, cOut, S);
     
    stimulus: PROCESS
    BEGIN

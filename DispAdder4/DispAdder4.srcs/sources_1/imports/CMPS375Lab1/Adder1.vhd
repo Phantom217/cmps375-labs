@@ -1,0 +1,29 @@
+----------------------------------------------------------------------------------
+-- Description:   1-bit Adder
+-- Project:       Adder1 
+-- Program-ID:    Adder1.vhd
+-- Authors:       GreenBox: Hannah Guilbeau, Tyler Oalman, Phuc Nguyen, Tony Goss           -- Add your team��s and members�� names as Authors Here 
+-- Package:       Xilinx Nexys4 DDR Board 
+-- Device:        Artix-7 FPGA (XC7A100TCSG324-1) 
+-- Software:      Vivado Design Suite
+----------------------------------------------------------------------------------
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY Adder1 IS
+   PORT 
+   (
+      A, B, cIn : IN std_logic;
+      S, cOut : OUT std_logic
+   );
+END Adder1;
+
+ARCHITECTURE behavioral OF Adder1 IS
+BEGIN
+
+     -- Insert two lines (one for cOut and the other for sum) of VHDL code Here
+     cOut <= (A AND B) OR ((A XOR B) AND cIn);
+     S <= (A XOR B) XOR cIn;
+
+END behavioral;

@@ -1,0 +1,12 @@
+
+{ 
+    crc :  8434559030464488126  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto c933cc4f10e64dc9be66ee713a6d8d1d --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Adder4_tb_behav xil_defaultlib.Adder4_tb" , 
+    buildDate : "Dec  6 2018" , 
+    buildTime : "23:39:36" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/Adder4_tb_behav/xsimk\"   \"xsim.dir/Adder4_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/Adder4_tb_behav/obj/xsim_1.lnx64.o\" -L\"/home/phantom/xilinx/Vivado/2018.3/lib/lnx64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

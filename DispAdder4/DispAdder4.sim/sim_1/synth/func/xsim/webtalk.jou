@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Feb 18 17:50:07 2019
+# Process ID: 27513
+# Current directory: /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.sim/sim_1/synth/func/xsim
+# Command line: wbtcv -mode batch -source /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.sim/sim_1/synth/func/xsim/xsim.dir/Adder1_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.sim/sim_1/synth/func/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.sim/sim_1/synth/func/xsim/xsim.dir/Adder1_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace

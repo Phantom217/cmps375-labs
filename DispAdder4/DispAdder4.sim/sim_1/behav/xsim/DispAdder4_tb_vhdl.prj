@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../DispAdder4.srcs/sources_1/imports/Adder1.vhd" \
+"../../../../DispAdder4.srcs/sources_1/new/Adder4.vhd" \
+"../../../../DispAdder4.srcs/sources_1/new/Bin2Hex.vhd" \
+"../../../../DispAdder4.srcs/sources_1/new/DispAdder4.vhd" \
+"../../../../DispAdder4.srcs/sim_1/new/DispAdder4_tb.vhd" \
+
+# Do not sort compile order
+nosort

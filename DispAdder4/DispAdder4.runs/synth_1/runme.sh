@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/phantom/projects/cmps375-labs/DispAdder4/DispAdder4.runs/synth_1'
+HD_PWD='/home/phantom/downloads/DispAdder4/DispAdder4/DispAdder4.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Adder4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adder4.tcl
+EAStep vivado -log DispAdder4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DispAdder4.tcl

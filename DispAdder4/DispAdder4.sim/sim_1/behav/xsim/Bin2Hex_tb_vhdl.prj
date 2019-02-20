@@ -1,7 +1,7 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
 "../../../../DispAdder4.srcs/sources_1/new/Bin2Hex.vhd" \
-"../../../../DispAdder4.srcs/sim_1/imports/documents/Bin2Hex_tb.vhd" \
+"../../../../DispAdder4.srcs/sim_1/new/Bin2Hex_tb.vhd" \
 
 # Do not sort compile order
 nosort
